@@ -1,0 +1,12 @@
+#cabecalho {
+    background: var(--vermelho-forte);
+    color: var(--branco);
+    padding: 10px 0;
+}
+
+.obter-informacao {
+    border-left: 1px solid var(--cinza-escuro);
+    border-right: 1px solid var(--cinza-escuro);
+    padding: 0 10px;
+    margin-left: 10px;
+}

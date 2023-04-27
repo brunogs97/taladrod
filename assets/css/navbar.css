@@ -1,0 +1,18 @@
+#barra-navegacao {
+    padding: 0 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: var(--vermelho-forte);
+    font-size: 2rem;
+    font-weight: 600;
+    border-right: 1px solid var(--cinza);
+    padding-right: 30px;
+}
+
+#barra-navegacao ul li a{
+    color: var(--cinza);
+}
