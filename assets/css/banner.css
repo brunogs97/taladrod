@@ -1,0 +1,15 @@
+.banner {
+    width: 60%;
+    height: 60vh;
+    margin: .5em auto 0 auto;
+    overflow: hidden;
+}
+
+.card-img {
+    opacity: .35;
+}
+
+.card-img-overlay {
+    color: var(--branco);
+    opacity: 1;
+}
