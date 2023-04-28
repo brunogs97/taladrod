@@ -1,0 +1,20 @@
+#filtrar-veiculos {
+    width: 100%;
+    background: var(--vermelho-forte);
+    color: var(--branco);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-filtrar-veiculo {
+    margin-right: 30px;
+}
+
+.form-select {
+    width: 160px;
+    font-size: 12px;
+    margin: 0 10px;
+    border-radius: 4px;
+}

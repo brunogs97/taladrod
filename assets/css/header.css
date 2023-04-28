@@ -2,6 +2,7 @@
     background: var(--vermelho-forte);
     color: var(--branco);
     padding: 10px 0;
+    font-size: 12px;
 }
 
 .obter-informacao {

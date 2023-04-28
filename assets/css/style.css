@@ -3,11 +3,11 @@
 @import url('navbar.css');
 @import url('banner.css');
 @import url('buttons.css');
-
+@import url('section-looking-vehicule.css');
 
 :root {
     --fonte-principal: 'Open Sans', sans-serif;
-    --vermelho-forte: rgb(240, 62, 62);
+    --vermelho-forte: rgb(236, 29, 29);
     --vermelho-escuro: rgb(133, 45, 45);
     --cinza: rgb(175, 172, 172);
     --cinza-claro: rgba(94, 94, 94, 0.226);
