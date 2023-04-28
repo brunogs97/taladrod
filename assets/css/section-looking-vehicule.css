@@ -17,4 +17,20 @@
     font-size: 12px;
     margin: 0 10px;
     border-radius: 4px;
+} 
+
+@media (max-width: 500px) {
+    #filtrar-veiculos {
+        flex-direction: column;
+    }
+
+    .texto-filtrar-veiculo {
+        margin: 1em 0;
+    }
+
+    .form-select {
+        width: 80vw;
+        font-size: 14px;
+        margin: 10px 0;
+    } 
 }

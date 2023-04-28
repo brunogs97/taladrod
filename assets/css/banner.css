@@ -17,3 +17,10 @@
 .card-text {
     font-weight: 300;
 }
+
+@media (max-width: 500px) {
+    .banner {
+        width: 100vw;
+        height: 30vh;
+    }
+}
