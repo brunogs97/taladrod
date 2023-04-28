@@ -15,8 +15,9 @@
 <body>
     <header class="d-flex justify-content-around align-items-center" id="cabecalho">
         <div class="registro-usuario">
-            <span>welcome Guest | <a href="#" class="fw-bold text-decoration-none text-light">Sing In</a> or <a href="#"
-                    class="fw-bold text-decoration-none text-light">Register</a></span>
+            <span>welcome Guest | <button type="button" class="fw-bold text-decoration-none text-light login"
+                    data-bs-toggle="modal" data-bs-target="#signIn">Sign In</button> or <button href="#"
+                    class="fw-bold text-decoration-none text-light login">Register</button></span>
         </div>
         <div class="entrar-contato-ligacao">
             <span class="ligar">
@@ -128,6 +129,54 @@
         </select>
     </section>
 
+    <main class="p-5">
+        <section class="apresentacao">
+            <div class="text-apresentacao">
+                <h1 class="text-black fs-3">WELCOME TO TALADROD</h1>
+                <small>VISITED CIVILLY AM DEMESNE SO COLONEL HE CALLING</small>
+                <P>
+                    One sportsman tolerably him extensive put she immediate.
+                    Continuing interested ten stimulated prosperous frequently
+                    all boisterous.
+                </P>
+                <div class="vantagens">
+
+                </div>
+            </div>
+            <div class="img-secao-apresentacao"></div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="signIn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">LOGIN</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="formulario">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="input input-email" id="email" aria-describedby="emailHelp"
+                                placeholder="exempe@email.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="input input-password" id="password" placeholder="*******">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign In</button>
+                        <div class="separador">
+                            <hr class="line">
+                            <span>Or</span>
+                            <hr class="line">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
         integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"

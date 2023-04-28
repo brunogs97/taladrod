@@ -86,3 +86,8 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
     color: #fff;
 }
+
+/*LOGIN*/
+.btn-primary {
+    width: 30vw;
+}

@@ -5,6 +5,11 @@
     font-size: 12px;
 }
 
+.login {
+    border: none;
+    background-color: transparent;
+}
+
 .obter-informacao {
     border-left: 1px solid var(--cinza-escuro);
     border-right: 1px solid var(--cinza-escuro);

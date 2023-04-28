@@ -4,6 +4,8 @@
 @import url('banner.css');
 @import url('buttons.css');
 @import url('section-looking-vehicule.css');
+@import url('main.css');
+@import url('login.css');
 
 :root {
     --fonte-principal: 'Open Sans', sans-serif;
