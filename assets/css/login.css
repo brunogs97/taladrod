@@ -30,3 +30,18 @@
     border: 0;
     background-color: var(--cinza-claro);
 }
+
+.link-termos {
+    color: var(--cinza);
+    font-size: 14px;
+}
+
+@media(max-width: 500px) {
+    .input {
+        width: 80vw;
+    }
+
+    .separador {
+        width: 80vw;
+    }
+}

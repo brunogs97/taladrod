@@ -88,6 +88,19 @@ button:hover .button-text {
 }
 
 /*LOGIN*/
-.btn-primary {
+.btn-primary, .btn-light, .btn-dark {
     width: 30vw;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.fa-apple {
+    margin-right: 5px;
+}
+
+@media (max-width: 500px) {
+    .btn-primary, .btn-light, .btn-dark {
+        width: 80vw;
+    }
 }
