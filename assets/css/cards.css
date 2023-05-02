@@ -1,0 +1,17 @@
+/*SECAO CARROS POPULARES*/
+.card-body p {
+    border: none;
+    margin: 0;
+    color: var(--vermelho-forte);
+    font-weight: 700;
+}
+
+.card-rodape {
+    border-top: 1px solid var(--cinza);
+}
+
+.card-rodape span:nth-child(2) {
+    border-left: 1px solid var(--cinza);
+    border-right: 1px solid var(--cinza);
+    padding: 0 10px 0 10px;
+}
